@@ -76,11 +76,11 @@ function App(): React.JSX.Element {
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Hi - updated the remote main twice">
+          <Section title="Hi">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
           </Section>
-          <Section title="See Your Changes - added feat 1">
+          <Section title="See Your Changes - added feat 2">
             <ReloadInstructions />
           </Section>
           <Section title="Debug">
